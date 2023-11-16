@@ -2,36 +2,17 @@ package negocio;
 
 public class Fichas {
 
-	public enum color{
-		BLANCO, NEGRO, POSMOV
-	}
-	
-	private int ubicacioni;
-	private int ubicacionj;
-	private color color;
+	private int color;
 
-	public color getColor() {
+	public int getColor() {
 		return color;
 	}
-	public void setColor(color color) {
+
+	public void setColor(int color) {
 		this.color = color;
-	}
-	public int getUbicacioni() {
-		return ubicacioni;
-	}
-	public void setUbicacioni(int ubicacioni) {
-		this.ubicacioni = ubicacioni;
-	}
-	public int getUbicacionj() {
-		return ubicacionj;
-	}
-	public void setUbicacionj(int ubicacionj) {
-		this.ubicacionj = ubicacionj;
 	}
 
-	public Fichas(color color, int ubicacioni, int ubicacionj) {
+	public Fichas(int color) {
 		this.color = color;
-		this.ubicacioni = ubicacioni;
-		this.ubicacionj = ubicacionj;
-	}
+	} 
 }
