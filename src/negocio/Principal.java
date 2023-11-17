@@ -13,7 +13,7 @@ public class Principal {
 	}
 	public void Start() {
 		tablero.print();
-		tablero.checkmove(3, 3);
+		tablero.checkder(3, 3);
 		tablero.print();
 	}
 }
