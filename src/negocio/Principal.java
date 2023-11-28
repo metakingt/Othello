@@ -12,8 +12,9 @@ public class Principal {
 		principal.Start();
 	}
 	public void Start() {
+		boolean turno = true;
 		tablero.print();
-		tablero.checkder(3, 3);
+		tablero.checkder(3, 3, turno);
 		tablero.print();
 	}
 }
